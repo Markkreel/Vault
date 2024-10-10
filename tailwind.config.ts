@@ -23,7 +23,7 @@ const config = {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
         },
-        bankGradient: "#0179FE",
+        bankGradient: "#A3E635",
         indigo: {
           500: "#6172F3",
           700: "#3538CD",
@@ -58,19 +58,41 @@ const config = {
         black: {
           1: "#00214F",
           2: "#344054",
+          3: "#000000",
         },
         gray: {
           25: "#FCFCFD",
           200: "#EAECF0",
-          300: "#D0D5DD",
+          300: "#D4D4D8",
+          400: "#A1A1AA",
           500: "#667085",
           600: "#475467",
           700: "#344054",
           900: "#101828",
         },
+        white: {
+          1: "#FFFFFF",
+          2: "#52525B",
+          3: "#27272A",
+        },
+        yellow: {
+          1: "#FFC800",
+          2: "#FFA837",
+          3: "#FF7A38",
+        },
+        lime: {
+          200: "#D9F99D",
+          300: "#BEF264",
+          400: "#A3E635",
+          500: "#84CC16",
+          600: "#65A30D",
+          700: "#4D7C0F",
+          800: "#3F6212",
+        },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
+        "bank-gradient":
+          "linear-gradient(90deg, rgba(255,200,0,1) 65%, rgba(0,201,255,1) 100%);",
         "gradient-mesh": "url('/icons/gradient-mesh.svg')",
         "bank-green-gradient":
           "linear-gradient(90deg, #01797A 0%, #489399 100%)",
@@ -84,8 +106,8 @@ const config = {
         creditCard: "8px 10px 16px 0px rgba(0, 0, 0, 0.05)",
       },
       fontFamily: {
-        inter: "var(--font-inter)",
-        "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+        geistSans: "var(--font-geist-sans)",
+        geistMono: "var(--font-geist-mono)",
       },
       keyframes: {
         "accordion-down": {
